@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    /* border: 12px solid black; */
+    color:white;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    font-size: 70px;
+}
+.container h1{
+    display: inline-block;
+    font-size: 47px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 10px 0;
+}
+.b1{
+    width: 100%;
+    /* border: 2px solid brown; */
+    border-bottom: 2px solid purple;
+    margin: 22px 0;
+
+}
+.b1 input{
+    width: 75%;
+    background: none;
+    margin: 13px 0px;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 22px;
+}
+.b1 i{
+    width: 50px;
+    /* float: left; */
+    text-align: center;
+    padding: 0 12px;
+}
+.btn{
+    cursor: pointer;
+    width: 25%;
+    outline: none;
+    margin: 12px 130px;
+    padding: 10px 21px;
+    font-size: 20px;
+    border: 2px solid purple;
+    border-radius: 18px;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    background: white;
+    color: purple;
+}
+.b2 a{
+    font-size: 30px;
+    margin-left: 50px;
+    color: white;
+}
+.loginreg{
+    font-size: 25px;
+    left: 30%;
+}
+.loginreg a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
